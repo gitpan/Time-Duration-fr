@@ -1,0 +1,22 @@
+---
+abstract: 'describe time duration in French'
+author:
+  - 'Sebastien Aperghis-Tramoni <sebastien@aperghis.net>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Time-Duration-fr
+provides:
+  Time::Duration::fr:
+    file: lib/Time/Duration/fr.pm
+    version: 1.00
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/maddingue/Time-Duration-fr
+version: 1.00
