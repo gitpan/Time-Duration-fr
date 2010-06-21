@@ -15,8 +15,11 @@ name: Time-Duration-fr
 provides:
   Time::Duration::fr:
     file: lib/Time/Duration/fr.pm
-    version: 1.00
+    version: 1.01
+requires:
+  Exporter: 0
+  Time::Duration: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/maddingue/Time-Duration-fr
-version: 1.00
+version: 1.01
